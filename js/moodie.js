@@ -4,6 +4,7 @@
 
     document.write('<scr' + 'ipt type="text/javascript" src="https://maps.googleapis.com/maps/api/js" ></scr' + 'ipt>');
 
+    // ajout d'une méthode pour array()
     Array.prototype.indexOfObjectBy = function (key, finder_object) {
         index = -1;
         var self = this;
@@ -58,7 +59,7 @@
     }
 
     Moodie.prototype = {
-        // Plugin methods
+        // Récupère la position
         geofinder: function () {
             if (!navigator.geolocation) return false;
             var self = this;
@@ -69,6 +70,7 @@
                 };
             });
         },
+        // init du programme, conteneurs html, materializee accordeon et map
         init: function () {
             this.$element.addClass('moodiestyle');
 
@@ -120,6 +122,7 @@
             this.map = new google.maps.Map(this.$map[0], mapoptions);
 
         },
+        // parse les donnnées pour les rajouter à l'objet moodie
         parse: function (data) {
             var self = this;
             $.each(data, function (key, address) {
@@ -138,6 +141,7 @@
                 self.addresses.push(address);
             });
         },
+        // On génère les markers
         markers: function () {
             var self = this;
             $.each(this.addresses, function (key, address) {
@@ -151,7 +155,7 @@
                 address.marker.addListener('click', function () {
                     if (self.info_window) self.info_window.close();
                     self.info_window = new google.maps.InfoWindow({
-                        content: address.student.name,
+                        content: '<h5>' + (address.host ? address.host + ', ' : '') + address.street + ', ' + address.city + ', ' + address.country + '</h5><div style="display:table; width:100%;"><div style="display:table-cell; vertical-align:top;"><table class=""><tr><th>Student</th><td>' + address.student.name + '</td></tr><tr><th>Email</th><td><a href="mailto:"></a></td></tr><tr><th>Phone</th><td></td></tr><tr><th>Section</th><td>' + address.student.section.name + '</td></tr></table></div></div>',
                         maxWidth: 1001,
                     });
                     self.info_window.open(self.map, this);
@@ -162,6 +166,7 @@
             // map - position - visible - icon              
 
         },
+        // on Génère l'html pour les filtres
         fillhtml: function () {
             var self = this;
 
@@ -205,6 +210,7 @@
             });
 
         },
+        // refresh la map pour les markers et le bound
         refresh: function () {
             var self = this;
             var bound = new google.maps.LatLngBounds();
@@ -218,6 +224,7 @@
             if (bound.isEmpty()) this.map.setCenter(this.current_position);
             else this.map.fitBounds(bound);
         },
+        // recherche avec l'adresse pour avoir les coords lat/lng
         geocode: function (address) {
             var urlcode = "https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURIComponent(address.street + "," + address.city + "," + address.country);
             var responsegoogle = $.ajax(urlcode, {
