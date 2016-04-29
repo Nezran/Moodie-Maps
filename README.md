@@ -19,7 +19,7 @@ With a json file you can put students on maps and filter it by type, section, st
 
 Moodie use Materialize
 
-[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://travis-ci.org/Dogfalo/materialize)
+[![Travis CI](https://travis-ci.org/Dogfalo/materialize.svg?branch=master)](https://github.com/Dogfalo/materialize)
 
 __Created in April 2016__
 
