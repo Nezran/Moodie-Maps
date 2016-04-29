@@ -1,0 +1,362 @@
+[
+  {
+    "host": "Maureen Doyle",
+    "street": "118 Lakelands",
+    "city": "Craigavon",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Home",
+      "letter": "A",
+      "icon": "home"
+    },
+    "student": {
+      "id": "22",
+      "name": "MAGNENAT Vincent",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "SRC - Marketing team",
+    "street": "36 Lurgan Road",
+    "city": "Portadown",
+    "country": "Co Armagh, BT63 5BL",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "22",
+      "name": "MAGNENAT Vincent",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Duncreggan Student Village",
+    "street": "85 Duncreggan Road",
+    "city": "Londonderry",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Home",
+      "letter": "A",
+      "icon": "home"
+    },
+    "student": {
+      "id": "23",
+      "name": "RAEYMAKERS Geoffrey",
+      "section": {
+        "id": "3",
+        "name": "Automatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Sphere Global",
+    "street": "20 Keans Hill Road",
+    "city": "Campsie",
+    "country": "Northern Ireland",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "23",
+      "name": "RAEYMAKERS Geoffrey",
+      "section": {
+        "id": "3",
+        "name": "Automatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Juliette Warren",
+    "street": "Wulfruna Street",
+    "city": "Wolverhampton",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Home",
+      "letter": "A",
+      "icon": "home"
+    },
+    "student": {
+      "id": "24",
+      "name": "JACCOUD Hugo",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "CoWC - Marketing team",
+    "street": "Paget Road",
+    "city": "Wolverhampton WV6 0DU",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "24",
+      "name": "JACCOUD Hugo",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Frau Grimminger",
+    "street": "Hintere Metzgergasse 10",
+    "city": "Lindau",
+    "country": "Allemagne",
+    "type": {
+      "name": "Home",
+      "letter": "A",
+      "icon": "home"
+    },
+    "student": {
+      "id": "25",
+      "name": "LAMBIEL Nicolas",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Kainz Werbeagentur",
+    "street": "Bregenzer Str. 55",
+    "city": "88131, Lindau",
+    "country": "Allemagne",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "25",
+      "name": "LAMBIEL Nicolas",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Barbara Clifford",
+    "street": "1a Rushbrook Road",
+    "city": "Dublin",
+    "country": "Irlande",
+    "type": {
+      "name": "Home",
+      "letter": "A",
+      "icon": "home"
+    },
+    "student": {
+      "id": "26",
+      "name": "MONTANARI LISA",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Smartlab - UCD 4pm",
+    "street": "Belfield",
+    "city": "Dublin",
+    "country": "Irlande",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "26",
+      "name": "MONTANARI LISA",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Duncreggan Student Village",
+    "street": "85 Duncreggan Road",
+    "city": "Londonderry",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Home",
+      "letter": "A",
+      "icon": "home"
+    },
+    "student": {
+      "id": "28",
+      "name": "SCHLAEFLI Jordan",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "NWRC - Business Center Support",
+    "street": "78-80 Strand Rd",
+    "city": "Londonderry BT48 7AL",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "28",
+      "name": "SCHLAEFLI Jordan",
+      "section": {
+        "id": "5",
+        "name": "Médiamatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Innotech Centre, SWC",
+    "street": "Burn Road",
+    "city": "Cookstown BT80 8DN",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "32",
+      "name": "VILLAGRASA Diego",
+      "section": {
+        "id": "6",
+        "name": "ETML informatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "IDC Intel",
+    "street": "75 Belfast Road",
+    "city": "Newry BT34 1QH",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "33",
+      "name": "GOTHUEY Gaël",
+      "section": {
+        "id": "6",
+        "name": "ETML informatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "IDC Intel",
+    "street": "75 Belfast Road",
+    "city": "Newry BT34 1QH",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "34",
+      "name": "MAZIERO Marco",
+      "section": {
+        "id": "6",
+        "name": "ETML informatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "Access Networks Solutions Ltd",
+    "street": "Cranborne Road, Potters Bar",
+    "city": "Hertfordshire, EN6 3DQ",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "35",
+      "name": "BONZON Ludovic",
+      "section": {
+        "id": "6",
+        "name": "ETML informatique"
+      },
+      "color": "#ef8616"
+    }
+  },
+  {
+    "host": "",
+    "street": "Cranborne Rd, Potters Bar",
+    "city": "Hertfordshire EN6 3DQ",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "36",
+      "name": "FALCY Manou",
+      "section": {
+        "id": "6",
+        "name": "ETML informatique"
+      },
+      "color": "#FF0000"
+    }
+  },
+  {
+    "host": "CoWC",
+    "street": "Paget Road",
+    "city": "Wolverhampton WV6 0DU",
+    "country": "Royaume-Uni",
+    "type": {
+      "name": "Job",
+      "letter": "B",
+      "icon": "computer"
+    },
+    "student": {
+      "id": "37",
+      "name": "SCHOPFER Gwenael",
+      "section": {
+        "id": "6",
+        "name": "ETML informatique"
+      },
+      "color": "#FF0000"
+    }
+  }
+]

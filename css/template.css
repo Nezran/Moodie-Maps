@@ -1,0 +1,12 @@
+#moodie {
+    max-width: 1800px;
+    min-height: 600px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+.backheader {
+    background: #EFEFEF;
+    padding: 15px;
+}
